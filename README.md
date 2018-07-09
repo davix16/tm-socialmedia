@@ -17,7 +17,7 @@ Las predicciones se han realizado con modelos de Machine Learning, realizando un
 ## Ejecución
 Dentro de la carpeta **pan-ap17-bigdata**, se pueden encontrar el código fuente y los dataset necesarios. Esta será la ruta que debamos marcar como el directorio activo (si lo ejecutas desde un IDE como Spyder)
 
-Los tweets en formato XML que se usan para entrenar y predecir los modelos se encuentran en las carpetas training y test, respectivamente.
+Los tweets en formato XML que se usan para entrenar y predecir los modelos se encuentran en las carpetas training y test, respectivamente. _Es necesario descomprimir los RAR incluidos en ambas carpetas para tener los XML sueltos_.
 
 **Fase 1: Procesado.** Para el procesamiento de los datos, se debe ejecutar el archivo **_Test1.py_**. Al acabar ese archivo, se genera un txt denominado _lista_modelo.txt_ que será la entrada utilizada en la Fase 2.
 
