@@ -22,3 +22,16 @@ Los tweets en formato XML que se usan para entrenar y predecir los modelos se en
 **Fase 1: Procesado.** Para el procesamiento de los datos, se debe ejecutar el archivo **_Test1.py_**. Al acabar ese archivo, se genera un txt denominado _lista_modelo.txt_ que será la entrada utilizada en la Fase 2.
 
 **Fase 2: Entrenamiento.** Para el entrenamiento de los datos, se debe ejecutar el archivo **_Test2.py_**. Utilizando el archivo resultante de la Fase 1, entrenará los modelos y nos facilitará unos porcentajes de acierto (**en base a datos de entrenamiento**).
+
+
+## Conclusiones y trabajo futuro
+A lo largo de esta tarea se ha abordado el problema de la predicción del género en Twitter. No obstante, por limitaciones de tiempo, no se ha podido abordar el problema en su totalidad. Entre las tareas que se quedan pendientes para una futura iteración se encuentran:
+
+* Aplicar los modelos entrenados a los datos de testing.
+* Mejorar el procesamiento de los tweets, eliminando signos de puntuación, caracteres repetidos... Se han escapado algunos.
+* Utilizar un análisis sintáctico de los tweets para detectar los adjetivos y su género, en lugar de una lista limitada y una separación en función a la terminación de los mismos.
+* Probar más modelos, buscando una mejor aproximación, más rápida.
+* Implementar un TF-IDF en lugar de un simple TF en la creación de las bolsas de palabras más repetidas en cada género. Creemos que puede marcar una gran diferencia.
+* Abordar el problema de la identificación de la variedad del lenguaje. Al margen de los mismas características ya empleadas, creemos que el uso de los dominios de las webs acortadas en los enlaces puede ser realmente interesante, aunque potencialmente costoso en tiempo.
+
+Finalmente, se está en general muy satisfecho con los resultados obtenidos, superiores al **70\%**. Y se cree que aún hay margen de mejora.
