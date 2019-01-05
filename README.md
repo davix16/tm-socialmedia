@@ -1,4 +1,7 @@
 # tm-socialmedia
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d7d598ca45d64cd08ee8b4e14f1f6cfb)](https://app.codacy.com/app/davix16/tm-socialmedia?utm_source=github.com&utm_medium=referral&utm_content=davix16/tm-socialmedia&utm_campaign=Badge_Grade_Settings)
+
 Predicción de género en Twitter. Máster en Big Data, asignatura Text Mining en Social Media
 
 
